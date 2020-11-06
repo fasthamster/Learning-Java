@@ -20,7 +20,7 @@ public class Anagrams {
             return result;
     };
 
-    public static LinkedHashMap Finalise (LinkedHashMap <TreeSet<String>, Integer> map) {  //честно стырил из интернетов
+    public static LinkedHashMap Finalise (LinkedHashMap <TreeSet<String>, Integer> map) {  
         LinkedHashMap <TreeSet<String>, Integer> result = new LinkedHashMap();
         map.entrySet()
                 .stream()
